@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+
+    <!-- google fonts for app -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+    <!-- google fons for number -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+    <!-- local css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app_body">
+        <h1 class="title">Unit Converter</h1>
+
+        <div class="btns">
+            <button id="weight">Weight / Mass</button>
+            <button id="temp">Temperature</button>
+        </div>
+
+        <section class="unit weight">
+            <p class="sub-title">Convert Weight</p>
+
+            <!-- input -->
+            <select name="" id="weight_select_input" onclick="convert_weight()" onchange="convert_weight()">
+                <option value="g">Grams</option>
+                <option value="kg">Kilograms</option>
+                <option value="mt">Metric Tonnes</option>
+            </select>
+
+            <input type="number" name="" id="weight_input" oninput="convert_weight()" placeholder="Input here">
+            <!-- input end -->
+
+            <hr>
+            <!-- output -->
+            <select name="" id="weight_select_output" onclick="convert_weight()" onchange="convert_weight()">
+                <option value="g">Grams</option>
+                <option value="kg">Kilograms</option>
+                <option value="mt">Metric Tonnes</option>
+            </select>
+
+            <input type="number" name="" id="weight_output" oninput="convert_weight()" readonly placeholder="Output here">
+            <!-- output end -->
+
+
+        </section>
+
+        <section class="unit temp">
+            <p class="sub-title">Convert Temperature</p>
+
+            <!-- input -->
+            <select name="" id="temp_select_input" onclick="convert_temp()" onchange="convert_temp()">
+                <option value="c">Celcius</option>
+                <option value="f">Farenheit</option>
+            </select>
+
+            <input type="number" name="" id="temp_input" oninput="convert_temp()" placeholder="Input here">
+            <!-- input end -->
+
+            <hr>
+            <!-- output -->
+            <select name="" id="temp_select_output" onclick="convert_temp()" onchange="convert_temp()">
+                <option value="c">Celcius</option>
+                <option value="f">Farenheit</option>
+            </select>
+
+            <input type="number" name="" id="temp_output" oninput="convert_temp()" readonly placeholder="Output here">
+            <!-- output end -->
+
+
+        </section>
+    </div>
+
+
+    <!-- local js -->
+    <script src="./app.js"></script>
+</body>
+</html>
