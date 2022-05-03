@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unit Converter</title>
 
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- google fonts for app -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,14 +24,20 @@
 </head>
 <body>
     <div id="app_body">
-        <h1 class="title">Unit Converter</h1>
-
-        <div class="btns">
-            <button id="weight">Weight / Mass</button>
-            <button id="temp">Temperature</button>
+        <div class="header">
+            <span class="title">Unit Converter</span>
+            <i id="menu_btn" class="fa-solid fa-bars"></i>
         </div>
 
-        <section class="unit weight">
+        <div id="menu">
+            <ul>
+                <li><a class="option" id="weight" href="#"><i class="fa-solid fa-weight-hanging"></i> Weight / Mass</a></li>
+                <li><a class="option" id="temp" href="#"><i class="fa-solid fa-temperature-half"></i> Temperature</a></li>
+            </ul>
+        </div>
+
+
+        <section class="unit weight active">
             <p class="sub-title">Convert Weight</p>
 
             <!-- input -->

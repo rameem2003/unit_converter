@@ -21,24 +21,70 @@ body{
     border-radius: 8px;
     width: 350px;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#app_body .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#app_body .header i{
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 3;
 }
 
 #app_body .title{
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
     margin: 20px 0;
 }
 
-#app_body .btns button{
-    padding: 10px 15px;
+#app_body #menu{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: -101%;
+    background-color: white;
     border-radius: 8px;
-    background-color: blue;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
+    transition: 0.5s linear;
 }
 
+#app_body #menu.active_menu{
+    left: 0%;
+}
+
+#app_body #menu ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+}
+
+#app_body #menu ul li{
+    display: block;
+}
+
+#app_body #menu ul li a{
+    display: block;
+    width: 100%;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    padding: 20px 0;
+    transition: 0.5s;
+}
+
+#app_body #menu ul li a:hover{
+    color: palevioletred;
+    background-color: black;
+}
 #app_body .unit .sub-title{
     font-size: 18px;
     margin: 20px 0;
