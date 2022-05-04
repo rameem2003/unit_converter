@@ -119,10 +119,19 @@ hr{
 
 
 /* for weight */
-.weight, .temp{
+/* .weight, .temp{
     display: none;
 }
 .weight.active, .temp.active{
+    display: block;
+} */
+
+
+.unit{
+    display: none;
+}
+
+.unit.active{
     display: block;
 }
 /* for weight end*/

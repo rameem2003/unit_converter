@@ -33,6 +33,7 @@
             <ul>
                 <li><a class="option" id="weight" href="#"><i class="fa-solid fa-weight-hanging"></i> Weight / Mass</a></li>
                 <li><a class="option" id="temp" href="#"><i class="fa-solid fa-temperature-half"></i> Temperature</a></li>
+                <li><a class="option" id="lenght" href="#"><i class="fa-solid fa-ruler-vertical"></i> Lenght</a></li>
             </ul>
         </div>
 
@@ -66,6 +67,31 @@
 
         <section class="unit temp">
             <p class="sub-title">Convert Temperature</p>
+
+            <!-- input -->
+            <select name="" id="temp_select_input" onclick="convert_temp()" onchange="convert_temp()">
+                <option value="c">Celcius</option>
+                <option value="f">Farenheit</option>
+            </select>
+
+            <input type="number" name="" id="temp_input" oninput="convert_temp()" placeholder="Input here">
+            <!-- input end -->
+
+            <hr>
+            <!-- output -->
+            <select name="" id="temp_select_output" onclick="convert_temp()" onchange="convert_temp()">
+                <option value="c">Celcius</option>
+                <option value="f">Farenheit</option>
+            </select>
+
+            <input type="number" name="" id="temp_output" oninput="convert_temp()" readonly placeholder="Output here">
+            <!-- output end -->
+
+
+        </section>
+
+        <section class="unit lenght">
+            <p class="sub-title">Convert Lenght</p>
 
             <!-- input -->
             <select name="" id="temp_select_input" onclick="convert_temp()" onchange="convert_temp()">

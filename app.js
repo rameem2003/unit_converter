@@ -1,6 +1,9 @@
 // get the buttons
 const weighBtn = document.getElementById("weight");
 const tempBtn = document.getElementById("temp");
+
+
+
 const menu_btn = document.getElementById("menu_btn");
 const menu = document.getElementById("menu");
 
@@ -19,6 +22,7 @@ menu.addEventListener("click", () => {
 // get the sections
 const weightSection = document.querySelector(".weight");
 const tempSection = document.querySelector(".temp");
+const lenghtSection = document.querySelector(".lenght");
 
 // button click event
 weighBtn.addEventListener("click", () => {
@@ -30,6 +34,7 @@ tempBtn.addEventListener("click", () => {
     tempSection.classList.add("active");
     weightSection.classList.remove("active");
 });
+
 
 
 
