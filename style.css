@@ -38,10 +38,18 @@ body{
 }
 
 #app_body .title{
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     margin: 20px 0;
+}
+
+#app_body .title > sup{
+    font-size: 12px;
+    padding: 5px;
+    background-color: orange;
+    color: white;
+    border-radius: 35px;
 }
 
 #app_body #menu{
@@ -64,7 +72,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 80vh;
+    height: 75vh;
 }
 
 #app_body #menu ul li{
