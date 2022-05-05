@@ -93,6 +93,16 @@ body{
     color: palevioletred;
     background-color: black;
 }
+
+
+.footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 12px;
+}
+
+
 #app_body .unit .sub-title{
     font-size: 18px;
     margin: 20px 0;

@@ -228,6 +228,289 @@ function convert_lenght(){
     }
 
     if(lenght_select_input == "in" && lenght_select_output == "mls"){
-        lenght_output.value = lenght_input * 0.000016
+        lenght_output.value = lenght_input * 0.000016;
     }
+
+
+    // nanometers to all
+
+    if(lenght_select_input == "nm" && lenght_select_output == "in"){
+        lenght_output.value = lenght_input * 0.000000039370079;
+    }
+
+    if(lenght_select_input == "nm" && lenght_select_output == "mm"){
+        lenght_output.value = lenght_input * 0.000001;
+    }
+
+    if(lenght_select_input == "nm" && lenght_select_output == "cm"){
+        lenght_output.value = lenght_input * 0.0000001;
+    }
+
+    if(lenght_select_input == "nm" && lenght_select_output == "m"){
+        lenght_output.value = lenght_input * 0.000000001;
+    }
+
+    if(lenght_select_input == "nm" && lenght_select_output == "km"){
+        lenght_output.value = lenght_input * 0.000000000001;
+    }
+
+    if(lenght_select_input == "nm" && lenght_select_output == "ft"){
+        lenght_output.value = lenght_input * 0.00000000328084;
+    }
+
+    if(lenght_select_input == "nm" && lenght_select_output == "yd"){
+        lenght_output.value = lenght_input * 0.000000001093613;
+    }
+
+    if(lenght_select_input == "nm" && lenght_select_output == "mls"){
+        lenght_output.value = lenght_input * 0.000000000000621;
+    }
+
+
+    // milimeters to all
+
+
+    if(lenght_select_input == "mm" && lenght_select_output == "in"){
+        lenght_output.value = lenght_input * 0.03937;
+    }
+
+    if(lenght_select_input == "mm" && lenght_select_output == "nm"){
+        lenght_output.value = lenght_input * 1000000;
+    }
+
+    if(lenght_select_input == "mm" && lenght_select_output == "cm"){
+        lenght_output.value = lenght_input * 0.1;
+    }
+
+    if(lenght_select_input == "mm" && lenght_select_output == "m"){
+        lenght_output.value = lenght_input * 0.001;
+    }
+
+    if(lenght_select_input == "mm" && lenght_select_output == "km"){
+        lenght_output.value = lenght_input * 0.000001;
+    }
+
+    if(lenght_select_input == "mm" && lenght_select_output == "ft"){
+        lenght_output.value = lenght_input * 0.003281;
+    }
+
+    if(lenght_select_input == "mm" && lenght_select_output == "yd"){
+        lenght_output.value = lenght_input * 0.001094;
+    }
+
+    if(lenght_select_input == "mm" && lenght_select_output == "mls"){
+        lenght_output.value = lenght_input * 0.000000621371192;
+    }
+
+
+    // centimeters to all
+
+    if(lenght_select_input == "cm" && lenght_select_output == "in"){
+        lenght_output.value = lenght_input * 0.393701;
+    }
+
+    if(lenght_select_input == "cm" && lenght_select_output == "nm"){
+        lenght_output.value = lenght_input * 10000000;
+    }
+
+    if(lenght_select_input == "cm" && lenght_select_output == "mm"){
+        lenght_output.value = lenght_input * 10;
+    }
+
+    if(lenght_select_input == "cm" && lenght_select_output == "m"){
+        lenght_output.value = lenght_input * 0.01;
+    }
+
+    if(lenght_select_input == "cm" && lenght_select_output == "km"){
+        lenght_output.value = lenght_input * 0.00001;
+    }
+
+    if(lenght_select_input == "cm" && lenght_select_output == "ft"){
+        lenght_output.value = lenght_input * 0.032808;
+    }
+
+    if(lenght_select_input == "cm" && lenght_select_output == "yd"){
+        lenght_output.value = lenght_input * 0.010936;
+    }
+
+    if(lenght_select_input == "cm" && lenght_select_output == "mls"){
+        lenght_output.value = lenght_input * 0.000006;
+    }
+
+
+    // meters to all
+
+    if(lenght_select_input == "m" && lenght_select_output == "in"){
+        lenght_output.value = lenght_input * 39.37008;
+    }
+
+    if(lenght_select_input == "m" && lenght_select_output == "nm"){
+        lenght_output.value = lenght_input * 1000000000;
+    }
+
+    if(lenght_select_input == "m" && lenght_select_output == "mm"){
+        lenght_output.value = lenght_input * 1000;
+    }
+
+    if(lenght_select_input == "m" && lenght_select_output == "cm"){
+        lenght_output.value = lenght_input * 100;
+    }
+
+    if(lenght_select_input == "m" && lenght_select_output == "km"){
+        lenght_output.value = lenght_input * 0.001;
+    }
+
+    if(lenght_select_input == "m" && lenght_select_output == "ft"){
+        lenght_output.value = lenght_input * 3.28084;
+    }
+
+    if(lenght_select_input == "m" && lenght_select_output == "yd"){
+        lenght_output.value = lenght_input * 1.093613;
+    }
+
+    if(lenght_select_input == "m" && lenght_select_output == "mls"){
+        lenght_output.value = lenght_input * 0.000621;
+    }
+
+
+    // kilometers to all
+
+    if(lenght_select_input == "km" && lenght_select_output == "in"){
+        lenght_output.value = lenght_input * 39370.08;
+    }
+
+    if(lenght_select_input == "km" && lenght_select_output == "nm"){
+        lenght_output.value = lenght_input * 1000000000000;
+    }
+
+    if(lenght_select_input == "km" && lenght_select_output == "mm"){
+        lenght_output.value = lenght_input * 1000000;
+    }
+
+    if(lenght_select_input == "km" && lenght_select_output == "cm"){
+        lenght_output.value = lenght_input * 100000;
+    }
+
+    if(lenght_select_input == "km" && lenght_select_output == "m"){
+        lenght_output.value = lenght_input * 1000;
+    }
+
+    if(lenght_select_input == "km" && lenght_select_output == "ft"){
+        lenght_output.value = lenght_input * 3280.84;
+    }
+
+    if(lenght_select_input == "km" && lenght_select_output == "yd"){
+        lenght_output.value = lenght_input * 1093.613;
+    }
+
+    if(lenght_select_input == "km" && lenght_select_output == "mls"){
+        lenght_output.value = lenght_input * 0.621371;
+    }
+
+
+
+    // feet to all
+
+    if(lenght_select_input == "ft" && lenght_select_output == "in"){
+        lenght_output.value = lenght_input * 12;
+    }
+
+    if(lenght_select_input == "ft" && lenght_select_output == "nm"){
+        lenght_output.value = lenght_input * 304800000;
+    }
+
+    if(lenght_select_input == "ft" && lenght_select_output == "mm"){
+        lenght_output.value = lenght_input * 304.8;
+    }
+
+    if(lenght_select_input == "ft" && lenght_select_output == "cm"){
+        lenght_output.value = lenght_input * 30.48;
+    }
+
+    if(lenght_select_input == "ft" && lenght_select_output == "m"){
+        lenght_output.value = lenght_input * 0.3048;
+    }
+
+    if(lenght_select_input == "ft" && lenght_select_output == "km"){
+        lenght_output.value = lenght_input * 0.000305;
+    }
+
+    if(lenght_select_input == "ft" && lenght_select_output == "yd"){
+        lenght_output.value = lenght_input * 0.333333;
+    }
+
+    if(lenght_select_input == "ft" && lenght_select_output == "mls"){
+        lenght_output.value = lenght_input * 0.000189;
+    }
+
+
+    // yards to all
+
+    if(lenght_select_input == "yd" && lenght_select_output == "in"){
+        lenght_output.value = lenght_input * 36;
+    }
+
+    if(lenght_select_input == "yd" && lenght_select_output == "nm"){
+        lenght_output.value = lenght_input * 914400000;
+    }
+
+    if(lenght_select_input == "yd" && lenght_select_output == "mm"){
+        lenght_output.value = lenght_input * 914.4;
+    }
+
+    if(lenght_select_input == "yd" && lenght_select_output == "cm"){
+        lenght_output.value = lenght_input * 91.44;
+    }
+
+    if(lenght_select_input == "yd" && lenght_select_output == "m"){
+        lenght_output.value = lenght_input * 0.9144;
+    }
+
+    if(lenght_select_input == "yd" && lenght_select_output == "km"){
+        lenght_output.value = lenght_input * 0.000914;
+    }
+
+    if(lenght_select_input == "yd" && lenght_select_output == "ft"){
+        lenght_output.value = lenght_input * 3;
+    }
+
+    if(lenght_select_input == "yd" && lenght_select_output == "mls"){
+        lenght_output.value = lenght_input * 0.000568;
+    }
+
+
+    // miles to all
+
+    if(lenght_select_input == "mls" && lenght_select_output == "in"){
+        lenght_output.value = lenght_input * 63360;
+    }
+
+    if(lenght_select_input == "mls" && lenght_select_output == "nm"){
+        lenght_output.value = lenght_input * 1609344000000;
+    }
+
+    if(lenght_select_input == "mls" && lenght_select_output == "mm"){
+        lenght_output.value = lenght_input * 1609344;
+    }
+
+    if(lenght_select_input == "mls" && lenght_select_output == "cm"){
+        lenght_output.value = lenght_input * 160934.4;
+    }
+
+    if(lenght_select_input == "mls" && lenght_select_output == "m"){
+        lenght_output.value = lenght_input * 1609.344;
+    }
+
+    if(lenght_select_input == "mls" && lenght_select_output == "km"){
+        lenght_output.value = lenght_input * 1.609344;
+    }
+
+    if(lenght_select_input == "mls" && lenght_select_output == "ft"){
+        lenght_output.value = lenght_input * 5280;
+    }
+
+    if(lenght_select_input == "mls" && lenght_select_output == "yd"){
+        lenght_output.value = lenght_input * 1760;
+    }
+
 }
